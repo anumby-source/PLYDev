@@ -1,0 +1,17 @@
+digraph LogicTree {
+n0 [label="OR"];
+n1 [label="AND"];
+n2 [label="A"];
+n3 [label="XOR"];
+n4 [label="B"];
+n5 [label="True"];
+n3 -> n4;
+n3 -> n5;
+n1 -> n2;
+n1 -> n3;
+n6 [label="NOT"];
+n7 [label="False"];
+n6 -> n7;
+n0 -> n1;
+n0 -> n6;
+}
